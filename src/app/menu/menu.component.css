@@ -1,0 +1,13 @@
+.title{
+    font-family: "Forte", "FORTE"; font-weight: 400;
+    color: #408ca3;
+}
+.tap-to-start{
+    color: #5b838f;
+}
+ActionBar{
+    background-color: #cb1f1f;
+}
+FlexboxLayout{
+    background-color: #93d0d3;
+}
