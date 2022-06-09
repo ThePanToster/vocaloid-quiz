@@ -1,13 +1,60 @@
+@keyframes blinking {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes left-slide {
+    from{
+        transform: translateX(500);
+    }
+    to{
+        transform: translateX(1);
+    }
+}
+
+@keyframes right-slide {
+    from{
+        transform: translateX(-500);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
 .title{
     font-family: "Forte", "FORTE"; font-weight: 400;
     color: #408ca3;
+    font-size: 70;
+    padding: 25;
+    line-height: -10;
+    letter-spacing: 0.04;
+
+    animation: right-slide 3s ease-in-out;
 }
 .tap-to-start{
+    font-family: "Terminus (TTF) Medium", "Terminus"; font-weight: 500;
     color: #5b838f;
-}
-ActionBar{
-    background-color: #cb1f1f;
+    font-size: 30;
+    padding: 10;
+
+    animation: blinking 3s ease-in-out 0s 80;
 }
 FlexboxLayout{
     background-color: #93d0d3;
+}
+label{
+    text-align: center;
+}
+image{
+    transform: scale(0.95);
+    transform: translateX(1);
+
+    animation: left-slide 3s ease-in-out;
 }
