@@ -1,10 +1,13 @@
-<ActionBar title="" flat="true"> </ActionBar>
-
-<FlexboxLayout flexWrap="wrap">
-  <label width="100%" text="Vocaloid Quiz" class="title" textWrap="true"></label>
-  <label width="100%" text="- Tap to start -" class="tap-to-start"></label>
-  <image
-    src="~/resources/images/miku.png"
-    loadMode="async"
-    stretch="aspectFit"></image>
-</FlexboxLayout>
+<AbsoluteLayout>
+  <FlexboxLayout id="container" flexWrap="wrap" (tap)="onTap($event)">
+    <label width="100%" text="Vocaloid Quiz" id="title" textWrap="true"></label>
+    <label width="100%" text="- Tap to start -" id="tap-to-start"></label>
+    <image
+      src="~/images/miku.png"
+      loadMode="async"
+      stretch="aspectFit"
+      id="img"
+      ></image>
+  </FlexboxLayout>
+  <label id="fader"></label>
+</AbsoluteLayout>
