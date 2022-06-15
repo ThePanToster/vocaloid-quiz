@@ -1,6 +1,7 @@
 # Vocaloid Quiz ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/ThePanToster/vocaloid-quiz?style=flat-square) ![GitHub](https://img.shields.io/github/license/ThePanToster/vocaloid-quiz?style=flat-square)
 
-Vocaloid Quiz is a mobile game written in NativeScript, Angular and TypeScript
+Vocaloid Quiz is a mobile quiz game written in NativeScript, that tests your knowledge about vocaloids
+
 [![Banner](https://raw.githubusercontent.com/thepantoster/vocaloid-quiz/dev/src/images/banner.jpg)](https://play.google.com/store/apps/details?id=com.thepantoster.mikuquiz)
 
 ## Tech Stack
