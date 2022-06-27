@@ -8,11 +8,12 @@ import { GameComponent } from './game/game.component'
 import { CounterComponent } from './game/counter/counter.component'
 import { ResultsComponent } from './game/results/results.component'
 import { ItemComponent } from './game/item-container/item.component'
+import { ItemContainerComponent } from './game/item-container/item-container.component'
 
 @NgModule({
   bootstrap: [AppComponent],
   imports: [NativeScriptModule, AppRoutingModule],
-  declarations: [AppComponent, MenuComponent, GameComponent, CounterComponent, ResultsComponent, ItemComponent],
+  declarations: [AppComponent, MenuComponent, GameComponent, CounterComponent, ResultsComponent, ItemComponent, ItemContainerComponent],
   providers: [],
   schemas: [NO_ERRORS_SCHEMA],
 })
