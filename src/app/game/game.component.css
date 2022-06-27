@@ -1,4 +1,114 @@
+@keyframes rotating {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+}
+@keyframes change-color {
+    to{
+        box-shadow: 0 0 0 30 #e2ded4;
+    }
+}
+@keyframes scale-from-zero {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+@keyframes scale-to-zero {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(0);
+    }
+}
+@keyframes right-slide {
+    from{
+        left: -300;
+    }
+    to{
+        left: 10;
+    }
+}
+@keyframes left-slide {
+    from{
+        left: 444;
+    }
+    to{
+        left: 154;
+    }
+}
+@keyframes sad-left-slide {
+    from{
+        left: 444;
+    }
+    to{
+        left: 110;
+    }
+}
+@keyframes second-left-slide {
+    from{
+        left: 10;
+    }
+    to{
+        left: -300;
+    }
+}
+@keyframes beating {
+    from{
+        filter: drop-shadow(0 0 5 rgb(95, 95, 95));
+    }
+    50%{
+        filter: drop-shadow(0 0 8 rgb(37, 37, 37));
+    }
+    to{
+        filter: drop-shadow(0 0 5 rgb(95, 95, 95));
+    }
+}
+@keyframes turn-to-red {
+    to{
+        box-shadow: 0 0 0 30 red;
+    }
+}
+@keyframes disappear {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
 #container{
-    background-color: #e3e556;
-    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: #fbff8b;
+}
+#len{
+    width: 248;
+    height: 704.8;
+    left: 10;
+    /* animation: right-slide 2s ease-out forwards,
+            beating 0.5s ease-in-out 12 10s,
+            disappear 1.5s linear 15s forwards,
+            second-left-slide 1.5s linear 15s forwards; */
+    filter: drop-shadow(0 0 5 rgb(95, 95, 95));
+}
+#rin{
+    width: 248;
+    height: 704.8;
+    left: 444;
+    /* animation: left-slide 2s ease-out 15s forwards; */
+    filter: drop-shadow(0 0 5 rgb(95, 95, 95));
+    visibility: hidden;
+}
+#rinsad{
+    height: 700;
+    left: 444;
+    /* animation: sad-left-slide 2s ease-out 15s forwards; */
+    filter: drop-shadow(0 0 5 rgb(95, 95, 95));
 }

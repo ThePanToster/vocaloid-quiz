@@ -1,3 +1,20 @@
-<FlexboxLayout id="container" flexWrap="wrap">
-    <label text="Lorem ipsum"></label>
-</FlexboxLayout>
+<AbsoluteLayout id="container" (loaded)="pageLoaded($event)" (tap)="onTap($event)">
+    <ns-counter id="counter"></ns-counter>
+    <image
+    src="~/images/len.png"
+    loadMode="async"
+    stretch="aspectFit"
+    id="len"></image>
+    <image
+    src="~/images/rin.png"
+    loadMode="async"
+    stretch="aspectFit"
+    id="rin"></image>
+    <image
+    src="~/images/rinsad.png"
+    loadMode="async"
+    stretch="aspectFit"
+    id="rinsad"></image>
+    <ns-item-container id="itemContainer"></ns-item-container>
+    <ns-results id="results"></ns-results>
+</AbsoluteLayout>
