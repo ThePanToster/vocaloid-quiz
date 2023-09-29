@@ -2,7 +2,7 @@
 
 Vocaloid Quiz is an Android mobile quiz game written in Kotlin, that tests your knowledge about vocaloids
 
-[![Banner](https://raw.githubusercontent.com/thepantoster/vocaloid-quiz/banner.jpg)](https://play.google.com/store/apps/details?id=com.thepantoster.mikuquiz)
+[![Banner](https://raw.githubusercontent.com/thepantoster/vocaloid-quiz/main/banner.jpg)](https://play.google.com/store/apps/details?id=com.thepantoster.mikuquiz)
 
 ## Technology
 
