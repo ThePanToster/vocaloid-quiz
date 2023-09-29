@@ -27,7 +27,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.StrokeJoin
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.text.ExperimentalTextApi
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -61,7 +60,6 @@ fun GameLayout(modifier: Modifier = Modifier) {
     }
 }
 
-@OptIn(ExperimentalTextApi::class)
 @Composable
 fun InfoBox(modifier: Modifier = Modifier) {
     Column (
@@ -191,7 +189,7 @@ fun Answer(songName: String, modifier: Modifier = Modifier){
             .fillMaxWidth()
     ) {
         Text(
-            text = "$songName",
+            text = songName,
             fontFamily = answersFamily,
             fontSize = 16.sp,
             lineHeight = 16.sp,
