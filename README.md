@@ -11,7 +11,7 @@ Vocaloid Quiz is an Android mobile quiz game written in Kotlin, that tests your 
 - Android Studio
 - AdMob
 
-## Play it on Google Store
+## Play it on Google Play
 
 Click the link [here](https://play.google.com/store/apps/details?id=com.thepantoster.mikuquiz) or just click the image above
 
