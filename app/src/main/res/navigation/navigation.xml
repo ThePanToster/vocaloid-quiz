@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/menu">
+    <fragment
+        android:id="@+id/menu"
+        android:name="com.thepantoster.mikuquiz.Menu"
+        android:label="fragment_menu"
+        tools:layout="@layout/layout_menu" >
+        <action
+            android:id="@+id/navigateToGame"
+            app:destination="@id/game"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/game"
+        android:name="com.thepantoster.mikuquiz.Game"
+        android:label="fragment_game"
+        tools:layout="@layout/layout_game" >
+        <action
+            android:id="@+id/navigateToMenu"
+            app:destination="@id/menu"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+</navigation>
