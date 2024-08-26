@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.thepantoster.mikuquiz"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.thepantoster.mikuquiz"
@@ -27,8 +27,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
         jvmTarget = "1.8"
