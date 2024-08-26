@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Vocaloid Quiz</string>
+    <string name="btn_start">- Tap to start -</string>
+    <string name="img_content_description">Hatsune Miku image</string>
 </resources>
