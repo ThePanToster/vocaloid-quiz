@@ -3,7 +3,7 @@
     "number": "001",
     "name": "The Disappearance Of Hatsune Miku",
     "difficulty": "Easy",
-    "voices": "Hatsune Miku",
+    "voices": ["Hatsune Miku"],
     "producer": "cosMo",
     "published": "2007-11-08",
     "link": "https://www.nicovideo.jp/watch/sm1476648"
@@ -12,7 +12,7 @@
     "number": "002",
     "name": "World is Mine",
     "difficulty": "Easy",
-    "voices": "Hatsune Miku",
+    "voices": ["Hatsune Miku"],
     "producer": "ryo",
     "published": "2008-05-31",
     "link": "https://www.nicovideo.jp/watch/sm3504435"
@@ -21,7 +21,7 @@
     "number": "003",
     "name": "Meltdown",
     "difficulty": "Easy",
-    "voices": "Kagamine Rin",
+    "voices": ["Kagamine Rin"],
     "producer": "iroha(sasaki)",
     "published": "2008-12-19",
     "link": "https://www.youtube.com/watch?v=dSw8CucthGc"
@@ -45,7 +45,7 @@
     "name": "Love is War",
     "producer": "ryo",
     "link": "https://www.nicovideo.jp/watch/sm2397344",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "006",
@@ -54,7 +54,7 @@
     "name": "Melt",
     "producer": "ryo",
     "link": "https://www.nicovideo.jp/watch/sm1715919",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "007",
@@ -63,7 +63,7 @@
     "name": "Black Rock Shooter",
     "producer": "ryo",
     "link": "https://www.nicovideo.jp/watch/sm3645817",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "008",
@@ -72,7 +72,7 @@
     "name": "Ghost Rule",
     "producer": "DECO*27",
     "link": "https://www.youtube.com/watch?v=KushW6zvazM",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "009",
@@ -81,7 +81,7 @@
     "name": "Rolling Girl",
     "producer": "wowaka",
     "link": "https://www.youtube.com/watch?v=vnw8zURAxkU",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "010",
@@ -114,7 +114,7 @@
     "name": "Law-evading Rock",
     "producer": "Neru",
     "link": "https://www.youtube.com/watch?v=u5mHVUwDf_0",
-    "voices": "Kagamine Len"
+    "voices": ["Kagamine Len"]
   },
   {
     "number": "013",
@@ -123,7 +123,7 @@
     "name": "ECHO",
     "producer": "Crusher-P",
     "link": "https://www.youtube.com/watch?v=cQKGUgOfD8U",
-    "voices": "GUMI"
+    "voices": ["GUMI"]
   },
   {
     "number": "014",
@@ -132,7 +132,7 @@
     "name": "Melancholic",
     "producer": "Junky",
     "link": "https://www.youtube.com/watch?v=86_kvUqhY-A",
-    "voices": "Kagamine Rin"
+    "voices": ["Kagamine Rin"]
   },
   {
     "number": "015",
@@ -141,7 +141,7 @@
     "name": "Unknown Mother-Goose",
     "producer": "wowaka",
     "link": "https://www.youtube.com/watch?v=P_CSdxSGfaA",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "016",
@@ -150,7 +150,7 @@
     "name": "Senbonzakura",
     "producer": "Kurousa-P",
     "link": "https://www.youtube.com/watch?v=shs0rAiwsGQ",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "017",
@@ -159,7 +159,7 @@
     "name": "Six Trillion Years and One Night Story",
     "producer": "kemu",
     "link": "https://www.youtube.com/watch?v=Om3MTou2kPg",
-    "voices": "IA"
+    "voices": ["IA"]
   },
   {
     "number": "018",
@@ -168,7 +168,7 @@
     "name": "Romeo and Cinderella",
     "producer": "doriko",
     "link": "https://www.youtube.com/watch?v=kp-plPYAPq8",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "019",
@@ -177,7 +177,7 @@
     "name": "Cat Food",
     "producer": "doriko",
     "link": "https://www.youtube.com/watch?v=9aOBfAq7Ra4",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "020",
@@ -186,7 +186,7 @@
     "name": "Odds & Ends",
     "producer": "ryo",
     "link": "https://www.youtube.com/watch?v=6OmwKZ9r07o",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "021",
@@ -195,7 +195,7 @@
     "name": "Tell Your World",
     "producer": "kz",
     "link": "https://www.youtube.com/watch?v=PqJNc9KVIZE",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "022",
@@ -204,7 +204,7 @@
     "name": "Luka Luka Night Fever",
     "producer": "samfree",
     "link": "https://www.nicovideo.jp/watch/sm6119955",
-    "voices": "Megurine Luka"
+    "voices": ["Megurine Luka"]
   },
   {
     "number": "023",
@@ -213,7 +213,7 @@
     "name": "Miku",
     "producer": "Anamanaguchi",
     "link": "https://www.youtube.com/watch?v=NocXEwsJGOQ",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "024",
@@ -222,7 +222,7 @@
     "name": "Viva Happy",
     "producer": "Mitchie M",
     "link": "https://www.youtube.com/watch?v=WiUjG9fF3zw",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "025",
@@ -231,7 +231,7 @@
     "name": "Nekomimi Switch",
     "producer": "daniwellP",
     "link": "https://www.youtube.com/watch?v=kt-lnIcE19k",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "026",
@@ -252,7 +252,7 @@
     "name": "PoPiPo",
     "producer": "LamazeP",
     "link": "https://www.nicovideo.jp/watch/sm5508956",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "028",
@@ -273,7 +273,7 @@
     "name": "Lagtrain",
     "producer": "inabakumori",
     "link": "https://www.youtube.com/watch?v=UnIhRpIT7nc",
-    "voices": "Kaai Yuki"
+    "voices": ["Kaai Yuki"]
   },
   {
     "number": "030",
@@ -282,7 +282,7 @@
     "name": "Lost One's Weeping",
     "producer": "Neru",
     "link": "https://www.youtube.com/watch?v=8oBV3jPTW4s",
-    "voices": "Kagamine Rin"
+    "voices": ["Kagamine Rin"]
   },
   {
     "number": "031",
@@ -303,7 +303,7 @@
     "name": "The Vampire",
     "producer": "DECO*27",
     "link": "https://www.youtube.com/watch?v=e1xCOsgWG0M",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "033",
@@ -312,7 +312,7 @@
     "name": "Hibana",
     "producer": "DECO*27",
     "link": "https://www.youtube.com/watch?v=hxSg2Ioz3LM",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "034",
@@ -321,7 +321,7 @@
     "name": "YY",
     "producer": "23.exe",
     "link": "https://www.youtube.com/watch?v=TcHvEFxk_78",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "035",
@@ -330,7 +330,7 @@
     "name": "Ochatime",
     "producer": "23.exe",
     "link": "https://www.youtube.com/watch?v=W1J2ZELm7Sw",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "036",
@@ -339,7 +339,7 @@
     "name": "39 Music!",
     "producer": "Mikito-P",
     "link": "https://www.youtube.com/watch?v=OuLZlZ18APQ",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "037",
@@ -348,7 +348,7 @@
     "name": "ROKI",
     "producer": "Mikito-P",
     "link": "https://www.youtube.com/watch?v=Xg-qfsKN2_E",
-    "voices": "Kagamine Rin"
+    "voices": ["Kagamine Rin"]
   },
   {
     "number": "038",
@@ -357,7 +357,7 @@
     "name": "Sand Planet",
     "producer": "Hachi",
     "link": "https://www.youtube.com/watch?v=AS4q9yaWJkI",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "039",
@@ -366,7 +366,7 @@
     "name": "Two-Faced Lovers",
     "producer": "wowaka",
     "link": "https://www.youtube.com/watch?v=b_cuMcDWwsI",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "040",
@@ -387,7 +387,7 @@
     "name": "Secret Police",
     "producer": "Buriru-P",
     "link": "https://www.nicovideo.jp/watch/sm12695779",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "042",
@@ -396,7 +396,7 @@
     "name": "Just Be Friends",
     "producer": "Dixie Flatline",
     "link": "https://www.nicovideo.jp/watch/sm7528841",
-    "voices": "Megurine Luka"
+    "voices": ["Megurine Luka"]
   },
   {
     "number": "043",
@@ -405,7 +405,7 @@
     "name": "Gigantic O.T.N",
     "producer": "Giga-P",
     "link": "https://www.youtube.com/watch?v=uLqDlcT140Y",
-    "voices": "Kagamine Len"
+    "voices": ["Kagamine Len"]
   },
   {
     "number": "044",
@@ -414,7 +414,7 @@
     "name": "Reversible Campaign",
     "producer": "DECO*27",
     "link": "https://www.youtube.com/watch?v=RqxnjgFj1HU",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "045",
@@ -435,7 +435,7 @@
     "name": "Greenlights Serenade",
     "producer": "Omoi",
     "link": "https://www.youtube.com/watch?v=XSLhsjepelI",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "047",
@@ -458,7 +458,7 @@
     "name": "Snow Drive",
     "producer": "Omoi",
     "link": "https://www.youtube.com/watch?v=JQjrfTh3J6c",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   },
   {
     "number": "049",
@@ -482,6 +482,6 @@
     "name": "Bitter Choco Decoration",
     "producer": "syudou",
     "link": "https://www.youtube.com/watch?v=XCyKJD6uQyg",
-    "voices": "Hatsune Miku"
+    "voices": ["Hatsune Miku"]
   }
 ]
