@@ -16,4 +16,21 @@ data class Song(val number: String, val name: String, val difficulty: String, va
     override fun hashCode(): Int {
         return voices.contentHashCode()
     }
+
+    fun getRawName(): String {
+        return buildString {
+            for (char in name){
+                if (char in "!@#$%^*()-+={[]}\\|\"\':;/?.>,<")
+                    continue
+                else if (char == ' ')
+                    append("_")
+                else if (char == '&')
+                    append("and")
+                else if (char in "0123456789")
+                    append(Digits.entries[char.digitToInt()].toString().lowercase())
+                else
+                    append(char.lowercaseChar())
+            }
+        }
+    }
 }

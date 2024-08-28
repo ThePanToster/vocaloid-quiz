@@ -1,6 +1,7 @@
 package com.thepantoster.mikuquiz
 
 import android.content.Context
+import android.media.MediaPlayer
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -13,6 +14,8 @@ import androidx.navigation.Navigation
 class Game : Fragment() {
 
     private var view: View? = null
+    private var songs: Database? = null
+    private var player: MediaPlayer? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -35,5 +38,19 @@ class Game : Fragment() {
             this,
             callback
         )
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        player?.stop()
+    }
+
+    override fun onStart() {
+        super.onStart()
+        songs = Database(requireContext())
+        val song = songs!!.getRandomSong()
+
+        player = MediaPlayer.create(context, Utils.getResourceId(requireContext(), song?.getRawName()!!))
+        player?.start()
     }
 }
